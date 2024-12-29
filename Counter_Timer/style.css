@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    background-image: url("./cool-background1.webp");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+.counter_timer{
+    display: flex;
+    margin-top: 20px;
+
+}
+.counter_timer > p{
+    font-size: 1.4rem;
+    padding: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+.counter_timer > p > span{
+   display: block;
+   font-size: 4rem;
+}
