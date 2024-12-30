@@ -1,0 +1,62 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.section {
+    min-height: 100vh;
+    padding-top: 100px;
+}
+.container {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+h1 {
+    font-size: 40px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.accordian {
+    max-width: 400px;
+    margin: auto;
+}
+.accordian_item {
+    border: 1px solid black;
+    padding: 20px;
+}
+.accordian_title {
+    display: flex;
+    gap: 200px;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.accordian_title h3 {
+    flex: 1;
+    font-size: 20px;
+}
+.accordian_title i {
+    font-size: 20px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.accordian_answer {
+    display: none;
+}
+
+.accordian_title.active + .accordian_answer {
+    display: block;
+}
+.accordion_title.active i {
+    transform: rotate(180deg);
+}
