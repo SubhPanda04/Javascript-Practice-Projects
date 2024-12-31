@@ -42,7 +42,7 @@ function createAccordianData() {
 
 createAccordianData();
 
-const getAccordianTitles = document.querySelector(".accordian_title");
+const getAccordianTitles = document.querySelectorAll(".accordian_title");
 
 getAccordianTitles.forEach((currentItems)=> {
     currentItems.addEventListener("click",(event)=> {
