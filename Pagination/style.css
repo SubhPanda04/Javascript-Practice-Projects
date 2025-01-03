@@ -1,0 +1,25 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+#data-container {
+    display: flex;
+    font-size: 2rem;
+    gap: 20px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center; 
+    margin-top: 20px; 
+}
+.pagination button {
+    margin: 0 5px; 
+    padding: 5px 10px; 
+}
